@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c598cedc-d336-4110-b3ba-3a19e1d42e88" name="Changes" comment="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +73,29 @@
     "spring.configuration.checksum": "99089fdb9ce452d0acbc8c98b94aa252"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projetosJava\projeto-cursoms\eurekaserver" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
     <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eurekaserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.arceniosouza.eurekaserver.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsclientesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msclientes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.arceniosouza.msclientes.MsclientesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,7 +113,8 @@
       <workItem from="1670428326699" duration="1133000" />
       <workItem from="1670429493525" duration="63000" />
       <workItem from="1670429583839" duration="481000" />
-      <workItem from="1670430106916" duration="56000" />
+      <workItem from="1670430106916" duration="925000" />
+      <workItem from="1670431578066" duration="1854000" />
     </task>
     <task id="LOCAL-00001" summary="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer">
       <created>1670429697494</created>
@@ -100,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670429697495</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer">
+      <created>1670430504564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670430504564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -11,13 +11,14 @@
         <relativePath/>
     </parent>
 
-    <groupId>io.github.microservice</groupId>
+    <groupId>io.microservice</groupId>
     <artifactId>projeto-cursoms</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>eurekaserver</module>
+        <module>msclientes</module>
     </modules>
 
     <properties>
