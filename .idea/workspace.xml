@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c598cedc-d336-4110-b3ba-3a19e1d42e88" name="Changes" comment="feat: :sparkles: Adiciona MsClientes e configura com o EurekaServer">
-      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/controller/ClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/dto/ClienteSaveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/repository/ClienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/service/ClienteService.java" afterDir="false" />
+    <list default="true" id="c598cedc-d336-4110-b3ba-3a19e1d42e88" name="Changes" comment="feat: :sparkles: Adiciona endpoints do microserviço de clientes">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msclientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msclientes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -106,7 +99,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "99089fdb9ce452d0acbc8c98b94aa252"
+    "spring.configuration.checksum": "3f7eb15bcd5631280f99810cb83bc866"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -128,6 +121,13 @@
     <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eurekaserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.arceniosouza.eurekaserver.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MscartoesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mscartoes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.arceniosouza.mscartoes.MscartoesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,7 +160,8 @@
       <workItem from="1670429493525" duration="63000" />
       <workItem from="1670429583839" duration="481000" />
       <workItem from="1670430106916" duration="925000" />
-      <workItem from="1670431578066" duration="9229000" />
+      <workItem from="1670431578066" duration="10685000" />
+      <workItem from="1670504322601" duration="1034000" />
     </task>
     <task id="LOCAL-00001" summary="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer">
       <created>1670429697494</created>
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670433970352</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: :sparkles: Adiciona endpoints do microserviço de clientes">
+      <created>1670503707361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670503707361</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +214,7 @@
     </ignored-roots>
     <MESSAGE value="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer" />
     <MESSAGE value="feat: :sparkles: Adiciona MsClientes e configura com o EurekaServer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: :sparkles: Adiciona MsClientes e configura com o EurekaServer" />
+    <MESSAGE value="feat: :sparkles: Adiciona endpoints do microserviço de clientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: :sparkles: Adiciona endpoints do microserviço de clientes" />
   </component>
 </project>

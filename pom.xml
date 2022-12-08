@@ -19,6 +19,8 @@
     <modules>
         <module>eurekaserver</module>
         <module>msclientes</module>
+        <module>mscloudgateway</module>
+        <module>mscartoes</module>
     </modules>
 
     <properties>
