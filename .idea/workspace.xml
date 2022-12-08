@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c598cedc-d336-4110-b3ba-3a19e1d42e88" name="Changes" comment="feat: :sparkles: Adiciona endpoints do microserviço de clientes">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -101,12 +104,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.arceniosouza.mscloudgateway.service" />
+      <recent name="io.github.arceniosouza.mscloudgateway.model" />
       <recent name="io.github.arceniosouza.mscartoes.dto" />
       <recent name="io.github.arceniosouza.mscartoes.enum" />
       <recent name="io.github.arceniosouza.msclientes.dtos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projetosJava\projeto-cursoms\eurekaserver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.github.arceniosouza.msavaliadorcredito.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,10 +124,31 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
+  <component name="RunManager" selected="JUnit.io.github.arceniosouza.msavaliadorcredito.service in msavaliadorcredito">
+    <configuration name="io.github.arceniosouza.msavaliadorcredito.service in msavaliadorcredito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msavaliadorcredito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.arceniosouza.msavaliadorcredito.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.arceniosouza.msavaliadorcredito.service" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eurekaserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.arceniosouza.eurekaserver.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsavaliadorcreditoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msavaliadorcredito" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.arceniosouza.msavaliadorcredito.MsavaliadorcreditoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,6 +174,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.io.github.arceniosouza.msavaliadorcredito.service in msavaliadorcredito" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -160,7 +194,7 @@
       <workItem from="1670429583839" duration="481000" />
       <workItem from="1670430106916" duration="925000" />
       <workItem from="1670431578066" duration="10685000" />
-      <workItem from="1670504322601" duration="6960000" />
+      <workItem from="1670504322601" duration="12929000" />
     </task>
     <task id="LOCAL-00001" summary="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer">
       <created>1670429697494</created>

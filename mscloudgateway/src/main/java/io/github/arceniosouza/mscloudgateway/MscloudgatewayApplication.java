@@ -24,6 +24,7 @@ public class MscloudgatewayApplication {
                     //toda vez que essa rota for acessada o gateway direciona para o ms através do loadbalance.
                     .route( r -> r.path("/clientes/**").uri("lb://msclientes"))
                     .route( r -> r.path("/cartoes/**").uri("lb://mscartoes"))
+                    .route( r -> r.path("/avaliacoes-credito/**").uri("lb://msavaliadorcredito"))
                 .build();
     }
 }

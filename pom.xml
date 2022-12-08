@@ -21,6 +21,7 @@
         <module>msclientes</module>
         <module>mscloudgateway</module>
         <module>mscartoes</module>
+        <module>msavaliadorcredito</module>
     </modules>
 
     <properties>
