@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c598cedc-d336-4110-b3ba-3a19e1d42e88" name="Changes" comment="feat: :sparkles: Adiciona endpoints do microserviço de clientes">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +15,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
-        <option value="Record" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -104,6 +101,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.arceniosouza.mscartoes.dto" />
+      <recent name="io.github.arceniosouza.mscartoes.enum" />
       <recent name="io.github.arceniosouza.msclientes.dtos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -161,7 +160,7 @@
       <workItem from="1670429583839" duration="481000" />
       <workItem from="1670430106916" duration="925000" />
       <workItem from="1670431578066" duration="10685000" />
-      <workItem from="1670504322601" duration="1034000" />
+      <workItem from="1670504322601" duration="6960000" />
     </task>
     <task id="LOCAL-00001" summary="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer">
       <created>1670429697494</created>
