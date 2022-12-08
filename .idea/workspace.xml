@@ -4,16 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c598cedc-d336-4110-b3ba-3a19e1d42e88" name="Changes" comment="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer">
+    <list default="true" id="c598cedc-d336-4110-b3ba-3a19e1d42e88" name="Changes" comment="feat: :sparkles: Adiciona MsClientes e configura com o EurekaServer">
+      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/dto/ClienteSaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msclientes/src/main/java/io/github/arceniosouza/msclientes/service/ClienteService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msclientes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msclientes/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,11 +62,29 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ialo6xJOwp2PcGEcN6YRpLEkZE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,6 +98,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/projetosJava/projeto-cursoms",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,6 +110,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.github.arceniosouza.msclientes.dtos" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projetosJava\projeto-cursoms\eurekaserver" />
     </key>
@@ -100,6 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MscloudgatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mscloudgateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.arceniosouza.mscloudgateway.MscloudgatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,7 +160,7 @@
       <workItem from="1670429493525" duration="63000" />
       <workItem from="1670429583839" duration="481000" />
       <workItem from="1670430106916" duration="925000" />
-      <workItem from="1670431578066" duration="1854000" />
+      <workItem from="1670431578066" duration="9229000" />
     </task>
     <task id="LOCAL-00001" summary="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer">
       <created>1670429697494</created>
@@ -130,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670430504564</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: :sparkles: Adiciona MsClientes e configura com o EurekaServer">
+      <created>1670433970351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670433970352</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +205,7 @@
       <path value="$PROJECT_DIR$/eurekaserver" />
     </ignored-roots>
     <MESSAGE value="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: :sparkles: Cria estrutura maven e adiciona o EurekaServer" />
+    <MESSAGE value="feat: :sparkles: Adiciona MsClientes e configura com o EurekaServer" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: :sparkles: Adiciona MsClientes e configura com o EurekaServer" />
   </component>
 </project>
